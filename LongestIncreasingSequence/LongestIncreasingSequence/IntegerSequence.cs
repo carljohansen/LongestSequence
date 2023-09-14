@@ -1,4 +1,6 @@
-﻿public static class IntegerSequence
+﻿namespace CarlJ.SequenceDemo;
+
+public static class IntegerSequence
 {
     public static (int startIndex, int endIndex) GetLongestIncreasingSequenceBounds(IEnumerable<int> input)
     {
